@@ -179,7 +179,7 @@ class Config
                     // authorization stored in SESSION[password] is like "Bearer <token>", so cut the token type
                     $token_type = ((string) $_SESSION['oauth_token']['token_type']) . " ";
                     $token_type_len = strlen($token_type);
-                    if (strncmp($acctoken, $token_type, $token_type_len) === 0) {
+                    if (strncasecmp($acctoken, $token_type, $token_type_len) === 0) {
                         $acctoken = substr($acctoken, $token_type_len);
                     }
                 }

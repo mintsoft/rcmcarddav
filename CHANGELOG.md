@@ -1,5 +1,9 @@
 # Changelog for RCMCardDAV
 
+## Version 5.1.4 (to 5.1.3)
+- Update Russian localization (#506 thanks @neijrr)
+- Fix: case-insensitive comparision of OAUTH token type (#501 thanks @Dadadah)
+
 ## Version 5.1.3 (to 5.1.2)
 - Postgres: Support tables in a schema within the Postgres database through roundcube's `db_prefix` option, for example
   "rcschema.". (Fixes #495)
