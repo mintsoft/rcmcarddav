@@ -108,6 +108,7 @@ class AdminSettings
         'hide'               => '0',
         'preemptive_basic_auth' => '0',
         'ssl_noverify'       => '0',
+        'ssl_client_certificate' => '',
 
         'name'               => '%N',
         'active'             => '1',
@@ -152,15 +153,16 @@ class AdminSettings
      */
     private const PRESET_SETTINGS = [
         //                        type,       mandatory
-        'accountname'        => [ 'string',   false ],
-        'username'           => [ 'string',   false ],
-        'password'           => [ 'string',   false ],
-        'discovery_url'      => [ 'url',      false ],
-        'rediscover_time'    => [ 'timestr',  false ],
-        'hide'               => [ 'bool',     false ],
-        'preemptive_basic_auth' => [ 'bool',  false ],
-        'ssl_noverify'       => [ 'bool',     false ],
-        'extra_addressbooks' => [ 'skip',     false ],
+        'accountname'         => [ 'string',   false ],
+        'username'            => [ 'string',   false ],
+        'password'            => [ 'string',   false ],
+        'discovery_url'       => [ 'url',      false ],
+        'rediscover_time'     => [ 'timestr',  false ],
+        'hide'                => [ 'bool',     false ],
+        'preemptive_basic_auth'  => [ 'bool',  false ],
+        'ssl_noverify'        => [ 'bool',     false ],
+        'ssl_client_certificate' => [ 'string', false],
+        'extra_addressbooks'  => [ 'skip',     false ],
     ] + self::PRESET_SETTINGS_COMMON;
 
     /**
