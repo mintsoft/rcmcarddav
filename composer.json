@@ -18,6 +18,9 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/mintsoft/PHP-carddavclient" }
+    ],
     "require": {
         "php": ">=7.4.0",
         "ext-gd": "*",
@@ -26,7 +29,7 @@
         "sabre/vobject": "^3.3.5 || ^4.0.0, !=4.5.2",
         "roundcube/plugin-installer": "^0.3.0",
         "psr/log": "^1.0 || ^2.0 || ^3.0",
-        "mstilkerich/carddavclient": "^1.4.0"
+        "mstilkerich/carddavclient": "dev-main"
     },
     "require-dev": {
         "phpcompatibility/php-compatibility": "dev-develop",
