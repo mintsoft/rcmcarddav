@@ -143,6 +143,7 @@ class UI
                     [ 'AccProps_preemptive_basic_auth_lbl', 'preemptive_basic_auth', 'checkbox', '0' ],
                     [ 'AccProps_ssl_noverify_lbl', 'ssl_noverify', 'checkbox', '0' ],
                     [ 'AccProps_ssl_client_keyfile_lbl', 'ssl_client_keyfile', 'text', '0' ],
+                    [ 'AccProps_ssl_client_password_lbl', 'ssl_client_password', 'password', '0' ],
                 ]
             ],
             [
@@ -192,6 +193,7 @@ class UI
                     [ 'AccProps_preemptive_basic_auth_lbl', 'preemptive_basic_auth', 'checkbox', '0' ],
                     [ 'AccProps_ssl_noverify_lbl', 'ssl_noverify', 'checkbox', '0' ],
                     [ 'AccProps_ssl_client_keyfile_lbl', 'ssl_client_keyfile', 'text', '0' ],
+                    [ 'AccProps_ssl_client_password_lbl', 'ssl_client_password', 'password', '0' ],
                 ]
             ],
         ],

@@ -109,6 +109,7 @@ class AdminSettings
         'preemptive_basic_auth' => '0',
         'ssl_noverify'       => '0',
         'ssl_client_keyfile' => '',
+        'ssl_client_password' => '',
 
         'name'               => '%N',
         'active'             => '1',
@@ -162,6 +163,7 @@ class AdminSettings
         'preemptive_basic_auth'  => [ 'bool',  false ],
         'ssl_noverify'        => [ 'bool',     false ],
         'ssl_client_keyfile' => [ 'string', false],
+        'ssl_client_password' => [ 'string', false],
         'extra_addressbooks'  => [ 'skip',     false ],
     ] + self::PRESET_SETTINGS_COMMON;
 
